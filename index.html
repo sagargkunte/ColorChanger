@@ -4,57 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 400px;
-            margin: 100px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        fieldset {
-            border: 2px solid #ccc;
-            padding: 20px;
-        }
-
-        legend {
-            font-weight: bold;
-            font-size: 1.2em;
-        }
-
-        input {
-            font-size: 25px;
-            margin: 10px 0;
-            height: 45px;
-            width: 100%;
-            border-radius: 5px;
-            box-sizing: border-box;
-        }
-
-        button {
-            padding: 8px 12px;
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        h2 {
-            font-size: 0.9em;
-            color: #888;
-            margin-top: 15px;
-        }
-    </style>
+     <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <div class="container">
@@ -64,9 +14,16 @@
             Enter Color : 
             <input type="text" class="input">
             <button onClick="Execute()"">Submit</button>
-            <h2># Ex. black , blue, red etc..</h2>
+            <h2># Ex. violet , pink, green etc..</h2>
+            <h2># Ex. rgb(0, 255, 0) (RGB code) , #ff0000 (Hexcode) etc..</h2>
         </fieldset>
-
+        <center><h3>OR</h3></center>
+        <div class="parent">
+            <div class="button" id="black"></div>
+            <div class="button" id="blue"></div>
+            <div class="button" id="red"></div>
+            <div class="button" id="yellow"></div>
+        </div>
    </div>
 
 <script src="script.js"></script>
